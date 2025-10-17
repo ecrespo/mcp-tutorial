@@ -83,4 +83,11 @@ def div(a: float, b: float) -> float:
     :rtype: float
     :raises ZeroDivisionError: If the denominator `b` equals zero.
     """
+    if b == 0:
+        raise ZeroDivisionError("Division by zero is not allowed.")
+
     return a / b
+
+
+if __name__ == "__main__":
+    mcp.run()  # STDIO by default
