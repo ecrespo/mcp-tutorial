@@ -9,4 +9,5 @@ dependencies = [
     "fastmcp>=2.12.4",
     "loguru>=0.7.3",
     "uvicorn[standard]>=0.37.0",
+    "feedparser>=6.0.12",
 ]
